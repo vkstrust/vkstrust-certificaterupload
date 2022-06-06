@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+	body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+	.lg-display{
+		display: none !important;
+	  }
+	  .mb-display{
+		display: block !important;
+	  }
+	  .captcha{
+		  margin-bottom:20px;
+	  }
+	  .box-border {
+		  width:100%;
+	  }
+
+	  .mb-center {
+		  text-align: center;
+	  }
+	  .modal-dialog {
+		margin-top: 30%;
+	  }
+	  .popup-close-btn{
+		  right: 5px !important;
+	  }
+	  .modal-body {
+		width: 320px !important;
+		height: 420px !important;
+	}
+	.upload-file {
+		width: 250px !important;
+	}
+	.choose-file {
+		width:100% !important;
+		top: 220px !important;
+	}
+	.url-img {
+		width: 200px !important;
+    height: 200px !important;
+	}
+	.uploadDropzone {
+		padding: 40px 10px !important;
+	}
+	.choose-input {
+		min-height: 200px !important;
+		top: 212px  !important;
+		width: 250px !important;
+	}
+	.logo-dark-res {
+		border-radius: 20%;
+		height: 75px !important;
+		width: 75px !important;
+	  }
+
+	  .ml-35-res {
+		margin-left: 35px !important;
+	  }
+
+	  .ml-30-res {
+		margin-left: 30px !important;
+	  }
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
